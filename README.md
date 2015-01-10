@@ -1,6 +1,6 @@
 Vurb Challenge
 ==============
-This is a simple native app that displays geolocation and list of cards
+This is a simple native app that displays geolocation and list of cards.
 
 Requirements
 =============
@@ -23,7 +23,7 @@ Creating New type of cards
 
 - Create a new model for this type. Optional to extend generic Card type class
 - Create an xml page and add view in CardViews.java to display a custom design.
-- Add view to page by editting ListViewAdapter.
+- Add view to list by indexing your type in ListViewAdapter.
 
 Libraries
 =========
