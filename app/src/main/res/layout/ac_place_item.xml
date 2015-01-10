@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="100dp"
+    android:padding="12dp"
+    android:id="@+id/lv_place_item"
+    android:background = "@color/card_bg">
+
+    <ImageView
+        android:id="@+id/ivThumbnail"
+        android:src="@drawable/vurb_logo"
+        android:layout_width="50dp"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="12dp"
+        android:layout_centerVertical="true"
+        android:scaleType="centerInside">
+    </ImageView>
+
+
+    <TextView
+        android:id="@+id/tvTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="18sp"
+        android:layout_toRightOf="@id/ivThumbnail"
+        android:layout_centerVertical="true"
+        android:text="Title"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/tvCategory"
+        android:textSize="12sp"
+        android:layout_centerVertical="true"
+        android:text="Category"
+        android:layout_below="@id/tvTitle"
+        android:layout_toRightOf="@id/ivThumbnail"
+        />
+
+
+
+</RelativeLayout>
