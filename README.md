@@ -17,6 +17,12 @@ Features
 - Splash Page with parellel tasks (Geolocation and getting json)
 - Cards Page with **infinite scrolling** (Reload same data).
 
+Optimizations
+=============
+- Storing views in viewholders
+- Running tasks in parellel
+- Caching images
+
 Creating New type of cards
 ==========================
 *For purposes of scalibility, here are steps to add new types in the future.*
